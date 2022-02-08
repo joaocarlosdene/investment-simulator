@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button'
 
 export default props =>
     <div>
+         <h1>Simulador de Investimentos</h1>
         <Container>
             <Row>
                 <Col className="col-12 text-center">
