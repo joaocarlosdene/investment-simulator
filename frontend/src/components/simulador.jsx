@@ -5,6 +5,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+
+import Resultado from '../pages/resultado'
 
 
 
@@ -61,9 +64,9 @@ export default props =>
                     <p>9,18%</p>
                 </Form.Group>
             </Form>
-            <Button variant="primary" type="submit">
-                Simular
-            </Button>
+                        <Button variant="primary" type="submit">
+                            Simular
+                        </Button>
             </Col>
         </Row>
         </Container>
